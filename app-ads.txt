@@ -1,0 +1,2 @@
+# App-ads.txt file for your app
+google.com, pub-7562155575439839, DIRECT, f08c47fec0942fa0
