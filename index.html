@@ -1,18 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bestify</title>
   <style>
-    body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-    h1 { font-size: 2rem; }
-    p { color: #555; }
-    a { color: #007bff; text-decoration: none; }
+    /* Reset and base styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #d9e4ec);
+      color: #333;
+      text-align: center;
+      padding: 60px 20px;
+      line-height: 1.6;
+    }
+
+    header {
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #555;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 1rem;
+      max-width: 700px;
+      margin: 10px auto;
+      color: #444;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 25px;
+      background: #007bff;
+      color: #fff;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    a.button:hover {
+      background: #0056b3;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    .card {
+      background: #fff;
+      padding: 25px;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to Bestify</h1>
-  <p>This is the developer page for our apps. Thanks for visiting!</p>
-  <p><a href="https://play.google.com/store/apps/developer?id=Bestify">View our apps on Google Play</a></p>
+  <header>
+    <h1>Bestify</h1>
+    <h2>Innovative apps designed to make your life easier</h2>
+  </header>
+
+  <div class="card">
+    <p>
+      Welcome to our official developer page! At <strong>Bestify</strong>, we focus on creating
+      high-quality, user-friendly apps that bring simplicity, productivity, and enjoyment
+      to your daily life.
+    </p>
+    <p>
+      Explore our collection of apps and discover tools built with care, creativity, and passion.
+    </p>
+    <a class="button" href="https://play.google.com/store/apps/developer?id=Bestify" target="_blank">
+      View Our Apps on Google Play
+    </a>
+  </div>
+
+  <footer>
+    <p>© <script>document.write(new Date().getFullYear())</script> Bestify. All rights reserved.</p>
+  </footer>
 </body>
 </html>
