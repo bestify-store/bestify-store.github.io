@@ -1,2 +1,2 @@
 # App-ads.txt file for your app
-google.com, pub-4991986466424385, DIRECT, f08c47fec0942fa0
+google.com, pub-1190041847981131, DIRECT, f08c47fec0942fa0
